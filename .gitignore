@@ -1,0 +1,13 @@
+src/WCTC.o
+src/lex.yy.c
+src/parser.y
+src/parser.tab.c
+src/parser.tab.h
+src/parser.output
+src/asm.s
+src/tac.txt
+src/tac_unopt.txt
+src/tree.gv
+src/*.csv
+EOF 
+
