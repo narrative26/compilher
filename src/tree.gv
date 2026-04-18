@@ -1,0 +1,263 @@
+digraph ast {
+node1[label = "CompilationUnit (L14)"];
+node2[label = "NormalClassDeclaration (L14)"];
+node3[label = "KEYWORD
+public (L1)", shape = rectangle, color = blue];
+node4[label = "KEYWORD
+class (L14)", shape = rectangle, color = blue];
+node5[label = "ID
+test_5 (L14)", shape = rectangle, color = purple];
+node6[label = "ClassBody (L14)"];
+node7[label = "DELIMITER
+{ (L14)", shape = rectangle, color = red];
+node8[label = "sClassBodyDeclaration (L13)"];
+node9[label = "MethodDeclaration (L8)"];
+node10[label = "KEYWORD
+static (L2)", shape = rectangle, color = blue];
+node11[label = "MethodHeader (L2)"];
+node12[label = "KEYWORD
+int (L2)", shape = rectangle, color = blue];
+node13[label = "MethodDeclarator (L2)"];
+node14[label = "ID
+factorial (L2)", shape = rectangle, color = purple];
+node15[label = "DELIMITER
+( (L2)", shape = rectangle, color = red];
+node16[label = "FormalParameter (L2)"];
+node17[label = "KEYWORD
+int (L2)", shape = rectangle, color = blue];
+node18[label = "VariableDeclaratorId (L2)"];
+node19[label = "ID
+n (L2)", shape = rectangle, color = purple];
+node20[label = "DELIMITER
+) (L2)", shape = rectangle, color = red];
+node21[label = "Block (L8)"];
+node22[label = "DELIMITER
+{ (L8)", shape = rectangle, color = red];
+node23[label = "IfThenElseStatement (L7)"];
+node24[label = "KEYWORD
+if (L7)", shape = rectangle, color = blue];
+node25[label = "DELIMITER
+( (L7)", shape = rectangle, color = red];
+node26[label = "Expression (L3)"];
+node27[label = "OPERATOR
+== (L3)", shape = rectangle, color = green];
+node28[label = "ID
+n (L3)", shape = rectangle, color = purple];
+node29[label = "LITERAL
+0 (L3)", shape = rectangle, color = red];
+node30[label = "DELIMITER
+) (L7)", shape = rectangle, color = red];
+node31[label = "Block (L5)"];
+node32[label = "DELIMITER
+{ (L5)", shape = rectangle, color = red];
+node33[label = "ReturnStatement (L4)"];
+node34[label = "KEYWORD
+return (L4)", shape = rectangle, color = blue];
+node35[label = "Expression (L4)"];
+node36[label = "LITERAL
+1 (L4)", shape = rectangle, color = red];
+node37[label = "DELIMITER
+} (L5)", shape = rectangle, color = red];
+node38[label = "KEYWORD
+else (L7)", shape = rectangle, color = blue];
+node39[label = "Block (L7)"];
+node40[label = "DELIMITER
+{ (L7)", shape = rectangle, color = red];
+node41[label = "ReturnStatement (L6)"];
+node42[label = "KEYWORD
+return (L6)", shape = rectangle, color = blue];
+node43[label = "Expression (L6)"];
+node44[label = "OPERATOR
+* (L6)", shape = rectangle, color = green];
+node45[label = "ID
+n (L6)", shape = rectangle, color = purple];
+node46[label = "MethodInvocation (L6)"];
+node47[label = "ID
+factorial (L6)", shape = rectangle, color = purple];
+node48[label = "BracketArgumentList (L6)"];
+node49[label = "DELIMITER
+( (L6)", shape = rectangle, color = red];
+node50[label = "Expression (L6)"];
+node51[label = "OPERATOR
+- (L6)", shape = rectangle, color = green];
+node52[label = "ID
+n (L6)", shape = rectangle, color = purple];
+node53[label = "LITERAL
+1 (L6)", shape = rectangle, color = red];
+node54[label = "DELIMITER
+) (L6)", shape = rectangle, color = red];
+node55[label = "DELIMITER
+} (L7)", shape = rectangle, color = red];
+node56[label = "DELIMITER
+} (L8)", shape = rectangle, color = red];
+node57[label = "MethodDeclaration (L13)"];
+node58[label = "Modifiers (L10)"];
+node59[label = "KEYWORD
+public (L10)", shape = rectangle, color = blue];
+node60[label = "KEYWORD
+static (L10)", shape = rectangle, color = blue];
+node61[label = "MethodHeader (L10)"];
+node62[label = "KEYWORD
+void (L10)", shape = rectangle, color = blue];
+node63[label = "MethodDeclarator (L10)"];
+node64[label = "ID
+main (L10)", shape = rectangle, color = purple];
+node65[label = "DELIMITER
+( (L10)", shape = rectangle, color = red];
+node66[label = "FormalParameter (L10)"];
+node67[label = "UnannType (L10)"];
+node68[label = "ID
+String (L10)", shape = rectangle, color = purple];
+node69[label = "Dims (L10)"];
+node70[label = "DELIMITER
+[ (L10)", shape = rectangle, color = red];
+node71[label = "DELIMITER
+] (L10)", shape = rectangle, color = red];
+node72[label = "VariableDeclaratorId (L10)"];
+node73[label = "ID
+args (L10)", shape = rectangle, color = purple];
+node74[label = "DELIMITER
+) (L10)", shape = rectangle, color = red];
+node75[label = "Block (L13)"];
+node76[label = "DELIMITER
+{ (L13)", shape = rectangle, color = red];
+node77[label = "BlockStatements (L13)"];
+node78[label = "LocalVariableDeclaration (L11)"];
+node79[label = "KEYWORD
+int (L11)", shape = rectangle, color = blue];
+node80[label = "VariableDeclarator (L11)"];
+node81[label = "VariableDeclaratorId (L11)"];
+node82[label = "ID
+result (L11)", shape = rectangle, color = purple];
+node83[label = "OPERATOR
+= (L11)", shape = rectangle, color = green];
+node84[label = "Expression (L11)"];
+node85[label = "MethodInvocation (L11)"];
+node86[label = "ID
+factorial (L11)", shape = rectangle, color = purple];
+node87[label = "BracketArgumentList (L11)"];
+node88[label = "DELIMITER
+( (L11)", shape = rectangle, color = red];
+node89[label = "Expression (L11)"];
+node90[label = "LITERAL
+5 (L11)", shape = rectangle, color = red];
+node91[label = "DELIMITER
+) (L11)", shape = rectangle, color = red];
+node92[label = "BlockStatements (L13)"];
+node93[label = "PrintStatement (L12)"];
+node94[label = "STATEMENT
+print (L12)", shape = rectangle, color = red];
+node95[label = "DELIMITER
+( (L12)", shape = rectangle, color = red];
+node96[label = "Expression (L12)"];
+node97[label = "ID
+result (L12)", shape = rectangle, color = purple];
+node98[label = "DELIMITER
+) (L12)", shape = rectangle, color = red];
+node99[label = "StatementWithoutTrailingSubstatement (L12)"];
+node100[label = "DELIMITER
+} (L13)", shape = rectangle, color = red];
+node101[label = "DELIMITER
+} (L14)", shape = rectangle, color = red];
+
+node1 -> node2;
+node2 -> node3;
+node2 -> node4;
+node2 -> node5;
+node2 -> node6;
+node6 -> node7;
+node6 -> node8;
+node8 -> node9;
+node9 -> node10;
+node9 -> node11;
+node11 -> node12;
+node11 -> node13;
+node13 -> node14;
+node13 -> node15;
+node13 -> node16;
+node16 -> node17;
+node16 -> node18;
+node18 -> node19;
+node13 -> node20;
+node9 -> node21;
+node21 -> node22;
+node21 -> node23;
+node23 -> node24;
+node23 -> node25;
+node23 -> node26;
+node26 -> node27;
+node27 -> node28;
+node27 -> node29;
+node23 -> node30;
+node23 -> node31;
+node31 -> node32;
+node31 -> node33;
+node33 -> node34;
+node33 -> node35;
+node35 -> node36;
+node31 -> node37;
+node23 -> node38;
+node23 -> node39;
+node39 -> node40;
+node39 -> node41;
+node41 -> node42;
+node41 -> node43;
+node43 -> node44;
+node44 -> node45;
+node44 -> node46;
+node46 -> node47;
+node46 -> node48;
+node48 -> node49;
+node48 -> node50;
+node50 -> node51;
+node51 -> node52;
+node51 -> node53;
+node48 -> node54;
+node39 -> node55;
+node21 -> node56;
+node8 -> node57;
+node57 -> node58;
+node58 -> node59;
+node58 -> node60;
+node57 -> node61;
+node61 -> node62;
+node61 -> node63;
+node63 -> node64;
+node63 -> node65;
+node63 -> node66;
+node66 -> node67;
+node67 -> node68;
+node67 -> node69;
+node69 -> node70;
+node69 -> node71;
+node66 -> node72;
+node72 -> node73;
+node63 -> node74;
+node57 -> node75;
+node75 -> node76;
+node75 -> node77;
+node77 -> node78;
+node78 -> node79;
+node78 -> node80;
+node80 -> node81;
+node81 -> node82;
+node80 -> node83;
+node83 -> node84;
+node84 -> node85;
+node85 -> node86;
+node85 -> node87;
+node87 -> node88;
+node87 -> node89;
+node89 -> node90;
+node87 -> node91;
+node77 -> node92;
+node92 -> node93;
+node93 -> node94;
+node93 -> node95;
+node93 -> node96;
+node96 -> node97;
+node93 -> node98;
+node92 -> node99;
+node75 -> node100;
+node6 -> node101;
+}
