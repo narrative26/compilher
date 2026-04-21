@@ -1,4 +1,4 @@
-# compilHER
+# CompilHER
 
 A Java to x86-64 compiler built from scratch using Flex, Bison, and C++. Takes a subset of Java 17 as input and produces native x86-64 assembly that can be assembled and executed on Linux.
 
